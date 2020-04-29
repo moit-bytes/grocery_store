@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Grocery Store</title>
+        <meta charset="utf-8">
+        <meta name="description" content="This is just a dummy website containing four sections.">
+        <meta name="keywords" content="Online, Grocery, Store, Aata">
+        <meta name="author" content="Mohit Kumar">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header id="main-header">
+            <h1>Online Grocery Store</h1>
+        </header>
+        <main>
+            <section id="selected-product">
+                <article class="selected-article">    
+                <div class="single-image" style="background: url(aata.jpeg)"></div>
+                </article>
+                <article class="selected-article">          
+                    <div style="font-size: 25px">Aashirvaad Atta - Whole Wheat, 10kgs Pouch</div>
+                    <br/>
+                    <div><b>Rs 399</b></div>
+                    <div>Pack Sizes</div>
+                    <br/><br/>
+                    <button id="bu2" class="bu1" onclick="button_click_1()" value="399">10 Kg <br/>Rs 399</button>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button id="bu3" class="bu1" onclick="button_click_2()" value="209">5 Kg <br/>Rs 209</button>
+                    <br/><br/>
+                    <div>Quantity</div>
+                    <form>
+                        <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+                        <input type="number" id="number" value="0" />
+                        <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+                        <br/><br/><br/>
+                        <button type="button" id="bu4" class="bu" onclick="payable()" value="0">Payable</button>
+                        <div id="amount"></div>
+                    </form>
+                    <br/><br/><br/>
+                </article>
+        </section>
+        <section class="sec2">
+            <article id="two-sec">
+            <div class="double-image" style="background: url(nam.jpeg)"></div>
+            <p class="tert">Namkeens and Savouries</p>
+            </article>
+            <article id="two-sec">
+            <div class="double-image" style="background: url(four.jpeg)"></div>
+            <p class="tert">Chips, Biscuits, Chocolates</p>    
+            </article>
+            <article id="two-sec">
+            <div class="double-image" style="background: url(lot.jpeg)"></div>
+            <p class="tert">Lottee Choco Pie</p>
+            </article>
+            
+        </section>
+        </main>
+        <script src="main_script.js"></script>
+    </body>
+</html>
+    

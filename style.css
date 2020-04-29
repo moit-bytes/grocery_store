@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+#main-header
+{
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size:15px;
+    padding:1px;
+    text-align: center;
+    position: sticky;
+    top:0px;
+    width: 98%;
+    border: 3px solid #000;
+    background-color: #F9971B;
+}
+#selected-product
+{
+    max-width:1500px;
+    max-height:1000px;
+    margin:auto;
+    margin-bottom:20px;
+}
+.sec2
+{
+    margin-top: 50px;
+    max-width:1500px;
+    max-height:1000px;
+    margin:auto;
+    margin-bottom:20px;
+}
+.selected-article
+{
+    margin-top: 20px;
+    width:auto;
+    height:auto;
+    margin-left:100px;
+    display:inline-block;
+    padding:5px; 
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.bu1
+{
+    width:80px;
+    height:auto;
+    display:inline-block;
+    text-align: center;
+    background: rgb(255,255,255);
+    border: 1px solid #000;
+    padding: 10px;
+    box-shadow: 2px 2px 5px 2px rgb(0,0,0,0.4);
+    
+    
+}
+.bu
+{
+    float:left;
+    width:100px;
+    height:auto;
+    display:inline-block;
+    text-align: center;
+    background: #439DEC;
+    border: 1.5px solid #000;
+    padding: 10px;
+    border-radius: 16px 16px;
+    outline: none;
+    
+    
+}
+.bu:hover
+{
+    background: #FF4105; 
+}
+
+.single-image
+{    
+    height:260px;
+    width:260px;
+    margin-top: 80px;
+    border-radius:0%;
+    background-size: cover !important;
+    background-position: center !important;
+    
+}
+.double-image
+{    
+    height:300px;
+    width:auto;
+    background-size: cover !important;
+    background-position: center !important;
+    
+}
+.tert
+{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    border: 2px solid #000;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#two-sec
+{
+    width:420px;
+    height:500px;
+    display:inline-block;
+    border: 1px solid #000;
+    margin:10px;
+    padding:10px;
+    box-shadow: 2px 2px 5px 2px rgb(0,0,0,0.4);
+    transition: border-shadow 1s, background 3s;
+}
+
+#two-sec:hover
+{
+    box-shadow: 15px 15px 30px 10px rgb(0,0,0,0.8);
+    background: #006666;
+}
+
+form {
+  
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 5px;
+  float:left;
+}
+
+.value-button {
+  display: inline-block;
+  border: 1.5px solid #000;
+  margin: 0px;
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 11px 0;
+  background: rgb(255,255,255);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.value-button:hover {
+  cursor: pointer;
+  font-weight: 700;  
+}
+.value-button:active
+{
+    font-size: 20px;
+}
+
+form #decrease {
+  margin-right: -4px;
+  border-radius: 13px;  
+  background: #DFD7BB;
+}
+
+form #increase {
+  margin-left: -4px;
+  border-radius: 13px;
+  background: #DFD7BB; 
+}
+
+form #input-wrap {
+  margin: 0px;
+  padding: 0px;
+}
+
+input#number {
+  text-align: center;
+  font-weight: 700;
+  border: none;
+  border: 1.5px solid #000;
+  border-radius: 5px;
+  margin: 0px;
+  width: 40px;
+  height: 40px;
+}
+input#amount 
+{
+  font-weight: 700;
+  border: none;
+ 
+}
+.button:active
+{
+    background: green;!important;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
